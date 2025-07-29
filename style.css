@@ -9,15 +9,19 @@ body {
 header {
   background-color: #1a1a1a;
   padding: 1.5rem;
-  text-align: center;
   border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .logo-title {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
+  position: absolute;
+  left: 1.5rem;
 }
 
 .logo-title img {
@@ -32,7 +36,7 @@ header h1 {
 }
 
 nav {
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 nav a {
