@@ -12,31 +12,30 @@ header {
   border-bottom: 1px solid #333;
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: relative;
+  justify-content: space-between;
 }
 
 .logo-title {
   display: flex;
   align-items: center;
   gap: 1rem;
-  position: absolute;
-  left: 1.5rem;
 }
 
 .logo-title img {
-  width: 50px;
+  width: clamp(40px, 8vw, 60px);
   height: auto;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
   color: #88ffaa;
 }
 
 nav {
+  margin-left: auto;
   margin-top: 0;
+  text-align: right;
 }
 
 nav a {
