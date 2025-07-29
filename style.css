@@ -55,6 +55,17 @@ main {
   margin: 0 auto;
 }
 
+.developer {
+  text-align: center;
+}
+
+.developer .profile {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
 footer {
   background-color: #1a1a1a;
   color: #666;
