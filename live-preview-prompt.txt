@@ -1,0 +1,10 @@
+Open the website in normal Chrome for live visual collaboration. 
+Use a non-headless browser window, load the site preview, 
+and after each meaningful code change automatically refresh Chrome 
+so I can watch the updates happen in real time. 
+Treat Chrome as our visual feedback loop while you edit. 
+If possible, prefer a proper local server over 
+file:// URLs, but if that is blocked, fall back to opening 
+the relevant local HTML file directly. Keep making changes in 
+the workspace and refreshing the browser as you go without waiting 
+for me each time.
